@@ -23,7 +23,7 @@ CREATE TABLE people(id SERIAL PRIMARY KEY, name TEXT, title TEXT, quote TEXT, im
 -- into the houses table
 
 -- your code starts here
-INSERT INTO people(name, title, quote, image, age) VALUES('Cersei Baratheon', 'King Mother and Lady of Casterly Rock', '"The gods have no mercy, that’s why they’re gods."', 'http://i.imgur.com/jYeeCJ3.jpg', 40);
+INSERT INTO people(name, title, quote, image, age) VALUES('Cersei Baratheon', 'King Mother and Lady of Casterly Rock', 'The gods have no mercy, that’s why they’re gods.', 'http://i.imgur.com/jYeeCJ3.jpg', 40);
 INSERT INTO houses(name, motto, sigil) VALUES('House Baratheon', 'Ours is the fury.', 'http://i.imgur.com/iJtBKIR.png');
 -- your code ends here
 
