@@ -8,9 +8,9 @@ You have 30 minutes.
 
 Fork and clone this repository.
 
-Follow the prompts in `quiz.sql` and complete each question.  You may use any resource, other than someone else in the classroom, to help you complete the quiz.
+Follow the prompts in `assessment.sql` and complete each question.  You may use any resource, other than someone else in the classroom, to help you complete the assessment.
 
-You can test your work by running `psql -f quiz.sql`.
+Test your work by running `psql -f assessment.sql`.
 
 Commit and push your changes.
 
