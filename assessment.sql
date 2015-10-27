@@ -1,5 +1,6 @@
 DROP DATABASE IF EXISTS "sql-crud-assessment";
 CREATE DATABASE "sql-crud-assessment";
+\pset pager 0
 \c "sql-crud-assessment"
 
 -- Question 1. Create a table called `licensees` to hold data in columns surname,given_name,gender,height,weight,dob,eye_color,hair_color.  See `data/licensees.csv` for example data.  Don't forget that all tables should have an id column as a unique identifier for a row.
