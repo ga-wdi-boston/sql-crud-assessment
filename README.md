@@ -1,6 +1,6 @@
 ![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
 
-# Quiz:  An introduction to relational databases
+# Assessment:  An introduction to relational databases
 
 You have 30 minutes.
 
