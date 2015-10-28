@@ -40,14 +40,14 @@ WHERE eye_color = 'Hazel'
 
 UPDATE licensees
 SET height = height - 1
-WHERE given_name = 'Marilynn' or given_name = 'Chris'
-  AND surname = 'Escobar' or surname = 'Whaley'
+WHERE given_name = 'Marilynn' and surname = 'Escobar'
+  or given_name = 'Chris' and surname = 'Whaley'
   ;
 
 
 -- Question 6. Remove Dylan Rich and Teresita Myers from the table of licensees.
 
 DELETE FROM licensees
-WHERE given_name = 'Dylan' or given_name = 'Teresita'
-  AND surname= 'Rich' or surname = 'Myers'
+WHERE given_name = 'Dylan' and surname = 'Rich'
+  or given_name= 'Teresita' and surname = 'Myers'
   ;
