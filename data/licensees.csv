@@ -1,4 +1,4 @@
-surname,given_name,gender,height,weight,dob,eye_color,hair_color
+surname,given_name,gender,height,weight,born_on,eye_color,hair_color
 Fletcher,Cecile,f,58,129,1953-05-03,Brown,Black
 O'Bray,Bradly,m,67,150,1955-04-16,Blue,Brown
 Mercer,Jeff,m,59,120,1992-07-29,Brown,Black
