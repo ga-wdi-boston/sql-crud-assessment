@@ -35,9 +35,13 @@ WHERE eye_color = 'hazel' AND hair_color = 'brown' OR 'black';
 -- Question 4. Make each of Marilynn Escobar and Chris Whaley one inch shorter. Look them up by their names.
 
 UPDATE licensees
-SET height = height + 1
-WHERE name = 'Marilynn Escobar' OR 'Chris Waley';
-
+SET height = height - 1
+WHERE given_name = 'Marilynn' OR 'Chris'
+AND surname = 'Escobar' OR 'Whaley';
 -- Question 5. Remove Dylan Rich and Teresita Myers from the table of licensees.
 
-DELETE FROM licensees USING name WHERE name = 'Dylan Rich' OR 'Teresita Myers';
+DELETE FROM licensees
+USING given_name
+AND surname
+WHERE given_name = 'Dylan' OR 'Teresita'
+AND surname = 'Rich' AND 'Myers';
