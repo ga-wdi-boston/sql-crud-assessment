@@ -30,14 +30,14 @@ VALUES('Bishop', 'Caren', 'f', 63, 132, '1943-09-26', 'Brown', 'Black');
 -- Question 3. Write a query to get all attributes of licensees with Hazel eye color and Brown or Black hair color.
 
 SELECT * FROM licensees
-    WHERE eye_color = 'Hazel' AND hair_color = 'Brown' OR 'Black';
+    WHERE eye_color = "Hazel" AND hair_color = "Brown" OR "Black";
 
 -- Question 4. Make each of Marilynn Escobar and Chris Whaley one inch shorter. Look them up by their names.
 
 UPDATE licensees
 SET height = height - 0.1
-WHERE sur_name = 'Escobar' AND 'Whaley';
+WHERE surname = "Escobar" AND "Whaley";
 
 -- Question 5. Remove Dylan Rich and Teresita Myers from the table of licensees.
-DELETE FROM licensees WHERE sur_name = 'Rich' AND 'Myers';
+DELETE FROM licensees WHERE surname = "Rich" AND "Myers";
 -- your code here
