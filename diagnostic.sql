@@ -35,7 +35,7 @@ SELECT * FROM licensees
 -- Question 4. Make each of Marilynn Escobar and Chris Whaley one inch shorter. Look them up by their names.
 
 UPDATE licensees
-SET height = height - 0.1
+SET height = height - 1
 WHERE surname = "Escobar" AND "Whaley";
 
 -- Question 5. Remove Dylan Rich and Teresita Myers from the table of licensees.
