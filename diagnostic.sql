@@ -34,12 +34,12 @@ FROM licensees
 WHERE eye_color = 'Hazel' AND hair_color LIKE 'B%';
 
 -- Question 4. Make each of Marilynn Escobar and Chris Whaley one inch shorter. Look them up by their names.
-
+-- This works for this DB since there is only one Dylan and one Teresita. Would need to be more selective if more people shared the names.
 UPDATE licensees
 SET height = height - 1
 WHERE given_name IN ('Marilynn', 'Chris');
 
 -- Question 5. Remove Dylan Rich and Teresita Myers from the table of licensees.
-
+-- This works for this DB since there is only one Dylan and one Teresita. Would need to be more selective if more people shared the names.
 DELETE FROM licensees
 WHERE given_name IN ('Dylan', 'Teresita');
