@@ -30,7 +30,8 @@ VALUES
 -- Question 3. Write a query to get all attributes of licensees with Hazel eye color and Brown or Black hair color.
 
 SELECT * FROM licensees
-WHERE eye_color = 'Brown' AND hair_color = 'Black'
+WHERE eye_color = 'Hazel'
+AND (hair_color = 'Black' OR hair_color = 'Brown')
 ;
 
 -- Question 4. Make each of Marilynn Escobar and Chris Whaley one inch shorter. Look them up by their names.
