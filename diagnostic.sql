@@ -7,14 +7,14 @@ CREATE DATABASE "sql-crud-assessment";
 
 CREATE TABLE licensees (
   id SERIAL,
-  surname string,
-  given_name string,
-  gender string,
+  surname varchar,
+  given_name varchar,
+  gender varchar,
   height integer,
   weight integer,
   born_on date,
-  eye_color string,
-  hair_color string
+  eye_color varchar,
+  hair_color varchar
 );
 -- Question 2. Add `Bishop, Caren, f, 63, 132, 1943-09-26, Brown, Black` into the table of licensees.
 
