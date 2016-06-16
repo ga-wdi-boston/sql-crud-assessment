@@ -18,7 +18,7 @@ CREATE TABLE licensees (
 );
 -- Question 2. Add `Bishop, Caren, f, 63, 132, 1943-09-26, Brown, Black` into the table of licensees.
 
-NSERT INTO licensees (surname, given_name, gender, height, weight, born_on, eye_color, hair_color)
+INSERT INTO licensees (surname, given_name, gender, height, weight, born_on, eye_color, hair_color)
   VALUES
     (Bishop, Caren, f, 63, 132, 1943-09-26, Brown, Black);
 
