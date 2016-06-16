@@ -10,7 +10,7 @@ CREATE DATABASE "sql-crud-assessment";
 -- Don't forget that all tables should have an id column as a unique identifier for a row.
 
 CREATE TABLE licensees (
-	--  id integer PRIMARY KEY,
+	 id serial PRIMARY KEY,
 	 surname varchar,
 	 given_name varchar,
 	 gender varchar,
