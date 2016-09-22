@@ -8,7 +8,7 @@ You have 30 minutes.
 
 Fork, clone, and branch (response).
 
-Follow the prompts in `diagnostic.sql` and complete each question.  
+Follow the prompts in `diagnostic.sql` and complete each question.
 You may use any resource, other than someone else in the classroom,
 to help you complete the diagnostic.
 
@@ -20,5 +20,6 @@ Submit a pull request.
 
 ## [License](LICENSE)
 
-Source code distributed under the MIT license. Text and other assets copyright
-General Assembly, Inc., all rights reserved.
+1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
+1.  All software code is licensed under GNU GPLv3. For commercial use or
+    alternative licensing, please contact legal@ga.co.
