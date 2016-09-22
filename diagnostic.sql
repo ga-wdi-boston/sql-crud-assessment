@@ -5,7 +5,7 @@ CREATE DATABASE "sql-crud-assessment";
 
 -- Question 1. Create a table called `licensees` to hold data in columns surname, given_name, gender, height, weight, born_on, eye_color, hair_color.  See `data/licensees.csv` for example data.  Don't forget that all tables should have an id column as a unique identifier for a row.
 
-+CREATE TABLE licensees (
+CREATE TABLE licensees (
  id SERIAL PRIMARY KEY,surname TEXT, given_name TEXT, gender CHAR(1), height INTEGER, weight INTEGER, born_on DATE, eye_color TEXT, hair_color TEXT);
 
 -- Question 2. Add `Bishop, Caren, f, 63, 132, 1943-09-26, Brown, Black` into the table of licensees.
