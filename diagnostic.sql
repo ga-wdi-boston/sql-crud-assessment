@@ -32,14 +32,19 @@ INSERT INTO licensees
 
 \copy licensees(surname,given_name,gender,height,weight,born_on,eye_color,hair_color) FROM './data/licensees.csv' WITH (FORMAT csv, HEADER true)
 
--- Question 3. Write a query to get all attributes of licensees with Hazel eye color and Brown or Black hair color.
+-- Question 3. Write a query to get all attributes of licensees with Hazel eye
+-- color and Brown or Black hair color.
 
 SELECT * FROM licensees WHERE eye_color = 'Hazel' AND (hair_color = 'Brown' OR hair_color = 'Black');
 
--- Question 4. Make each of Marilynn Escobar and Chris Whaley one inch shorter. Look them up by their names.
+-- Question 4. Make each of Marilynn Escobar and Chris Whaley one inch shorter.
+-- Look them up by their names.
 
--- your code here
+UPDATE licensees
+  SET height = height - 1
+  WHERE (surname = 'Escobar' AND given_name = 'Marilynn') OR (surname = 'Whaley' AND given_name = 'Chris');
 
 -- Question 5. Remove Dylan Rich and Teresita Myers from the table of licensees.
 
--- your code here
+DELETE FROM licensees
+  WHERE (surname = 'Rich' AND given_name = 'Dylan') OR (surname = 'Myers' AND given_name = 'Teresita');
