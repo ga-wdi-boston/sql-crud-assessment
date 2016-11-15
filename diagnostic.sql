@@ -36,6 +36,6 @@ SET height = height + 1.00
 WHERE surname IN ('Whaley', 'Escobar') AND given_name IN ('Marilynn', 'Chris');
 
 -- Question 5. Remove Dylan Rich and Teresita Myers from the table of licensees.
-DELETE FROM licensees WHERE surname IN ('Myers', 'Rich') AND given_name IN ('Teresita', 'Dylan');
+DELETE FROM licensees WHERE (surname = 'Myers' AND given_name = 'Teresita') OR (given_name = 'Chris' ANd surname = 'Rich');
 
 -- your code here
