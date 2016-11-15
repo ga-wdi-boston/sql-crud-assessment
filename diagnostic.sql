@@ -19,9 +19,9 @@ CREATE TABLE licensees (
 
 -- Question 2. Add `Bishop, Caren, f, 63, 132, 1943-09-26, Brown, Black` into the table of licensees.
 
-INSERT INTO (  surname, given_name, gender, height, weight, born_on, eye_color, hair_color)
+INSERT INTO licensees(surname, given_name, gender, height, weight, born_on, eye_color, hair_color)
 VALUES
-('Bishop', 'Caren', 'f', 63, 132, '1943-09-26', 'Brown', 'Black')
+('Bishop', 'Caren', 'f', 63, 132, '1943-09-26', 'Brown', 'Black');
 
 -- After completing questions 1 and 2 uncomment the following to load data from `data/licensees.csv` into the `licensees` table.
 
