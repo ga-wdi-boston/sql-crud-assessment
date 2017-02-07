@@ -5,7 +5,7 @@ CREATE DATABASE "sql-diagnostic";
 
 -- Question 1. Create a table called `licensees` to hold data in columns surname, given_name, gender, height, weight, born_on, eye_color, hair_color.  See `data/licensees.csv` for example data.  Don't forget that all tables should have an id column as a unique identifier for a row.
 
--- your code here
+-- Didn't have time to answer any questions.
 
 -- Question 2. Add `Bishop, Caren, f, 63, 132, 1943-09-26, Brown, Black` into the table of licensees.
 
