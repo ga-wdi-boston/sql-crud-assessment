@@ -30,7 +30,7 @@ SET surname = 'Bishop', given_name = 'Caren', gender = 'f', height = '63', weigh
 SELECT
   *
 FROM
-  licenses
+  licensees
 WHERE
   (eye_color = 'Hazel') AND
   (hair_color = 'Black' OR hair_color = 'Brown');
