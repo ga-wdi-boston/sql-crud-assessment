@@ -33,6 +33,12 @@ SELECT 'Bishop', 'Caren','f', 63, 132, '1943-09-26', 'Brown', 'Black'
 
 -- your code here
 
+SELECT *
+FROM licensees
+WHERE eye_color = 'Hazel'
+AND (hair_color ='Brown' or hair_color = 'Black')
+;
+
 -- Question 4. Make each of Marilynn Escobar and Chris Whaley one inch shorter. Look them up by their names.
 
 -- your code here
