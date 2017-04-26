@@ -39,7 +39,9 @@ OR hair_color = 'Black'
 
 -- Question 4. Make each of Marilynn Escobar and Chris Whaley one inch shorter. Look them up by their names.
 
--- your code here
+ALTER TABLE licensees
+ALTER COLUMN height
+ALTER COLUMN height
 
 -- Question 5. Remove Dylan Rich and Teresita Myers from the table of licensees.
 
