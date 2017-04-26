@@ -52,5 +52,12 @@ AND given_name = 'Escobar'
   ;
 
 -- Question 5. Remove Dylan Rich and Teresita Myers from the table of licensees.
+DELETE FROM licensees
+WHERE sur_name = 'Dylan'
+AND given_name = 'Rich'
+;
 
--- your code here
+DELETE FROM licensees
+WHERE sur_name = 'Teresita'
+AND given_name = 'Myers'
+;
